@@ -1,18 +1,18 @@
-## Getting Started
+### ESP32 + photorésistance
+Le code que j'utilise pour mon ESP32, qui envoie les données à mon serveur JAVA, peut être trouvé sous le nom ESP32_PHOTO.py dans le dossier mcu_py, qui utilise MicroPython.  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+  
+### Flasher l'ESP32 en utilisant esptool.py
+Pour préparer votre ESP32 pour MicroPython, vous devez suivre les instructions sur ce lien :
+https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/
 
-## Folder Structure
+Le micrologiciel dont vous avez besoin peut être téléchargé ici :
+https://micropython.org/resources/firmware/ESP32_GENERIC-20240222-v1.22.2.bin
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### IDE pour MicroPython
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Pour l'IDE, j'utilise le logiciel appelé "Thonny" (https://thonny.org/)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Vous pouvez suivre les instructions ici et en apprendre davantage sur la façon de flasher votre code MicroPython sur ESP32 :
+https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/
